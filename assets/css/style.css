@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* Universal default code */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+/* Headings */
+h1, h2 {
+    font-family: 'Indie Flower', cursive;
+    color: black;
+
+}
+
+/* Body */
+body {
+    font-family: 'Play', sans-serif;
+
+}
+
+.main-heading {
+    font-size: 100px;
+    text-align: center;
+}
+
+.second-heading {
+    font-size: 80px;
+    text-align: center;
+}
