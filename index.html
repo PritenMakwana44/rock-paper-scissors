@@ -8,24 +8,50 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <h1>Rock, Paper, Scissors</h1>
-    <h2>Can you beat me?</h2>
+    <!--Title-->
+    <h1 class="heading">Rock, Paper, Scissors</h1>
 
-    <div>Moves left:</div>
+    <!--Heading which reads 'Can you beat me?'-->
+    <h2 class="heading">Can you beat me?</h2>
 
-    <div>Rock</div>
+    <!--Games zone which includes rock, paper, scissors buttons, score abd moves left-->
+    <div class="gameszone">
+       
+        <!-- Moves left counter-->
+        <div class="movesleft">Moves Left: 10 </div>
 
-    <div>Paper</div>
+        <!--Rock paper scissors area and buttons for each-->
+        <div class="rockpaperscissors">
 
-    <div>Scissors</div>
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissors">Scissors</button>
+
+        </div>
+
+        <!--score counter area-->
+        <div class="scorearea">
+
+            <div class="playerscore">Player:</div>
+            <div class="computerscore">Computer:</div>
+
+        </div>
+
+    </div>
 
 
-    <div>Player:</div>
 
-    <div>Computer:</div>
-
-    <div>Rules</div>
     
+    <!--score counter area-->
+    <div class="rulesarea">
+        <h1>Rules</h1>
+        <p>
+            Rock beats Scissors
+            Scissors beats Paper
+            Paper beats Rock
+        </p>
+    </div>
+
 
     <script src="assets/js/script.js"></script>
 </body>
