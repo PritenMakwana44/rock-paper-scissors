@@ -36,10 +36,13 @@ body {
 }
 
 .movesleft {
-    width: 100%;
-    height: 100px;
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+    margin-left: 40%;
     text-align: center;
     font-size: 40px;
+    border-style: solid;
     
 }
 
@@ -56,7 +59,6 @@ body {
     width: 25%;
     height: 100%;
     background-color: beige;
-
     font-size: 50px;
     font-family: 'Indie Flower', cursive;
 
@@ -64,14 +66,19 @@ body {
 }
 
 .score {
-    margin-top: 1%;
+    width: 20%;
+    margin: 1%;
     padding: 1%;
+    margin-left: 40%;
     font-size: 40px;
     text-align: center;
+    border-style: solid;
 }
 
 .rulesarea {
     text-align: center;
+    padding: 1%;
+    
 
 }
 
