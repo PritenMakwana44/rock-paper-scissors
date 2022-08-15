@@ -113,4 +113,7 @@ Happy coding!
 
 
 
-button picker code : https://www.youtube.com/watch?v=1yS-JV4fWqY&t=622s
+help with player setup: https://www.youtube.com/watch?v=jaVNP3nIAv0
+help with random number generator: https://www.w3schools.com/jsref/jsref_random.asp
+
+help with template literals: https://wesbos.com/template-strings-html

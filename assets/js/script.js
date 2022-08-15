@@ -4,7 +4,8 @@ let computerScore = document.getElementById("computerScore");
 playerScore = 0;
 computerScore = 0;
 
-playerScore.innerHTML = "Player:" + playerScore;
+console.log(document.getElementById("playerScore").innerHTML)
+
 
 const rockBtn = document.getElementById("rock");
 const paperBtn = document.getElementById("paper");
@@ -51,6 +52,8 @@ function game(player) {
 
     console.log(computer);
     console.log(player);
+    console.log(playerScore);
+    console.log(computerScore);
 
 }
 
@@ -59,7 +62,6 @@ function computerChoiceGen(){
     return choices[choiceNumber];
 }
 
-console.log(computerChoiceGen());
 
 
 function buttonPick() {
