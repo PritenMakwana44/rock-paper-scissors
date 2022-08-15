@@ -1,68 +1,38 @@
-const buttonOptions = document.querySelectorAll('[data-Selection]');
+const playerScore = document.getElementsByClassName("playerScore");
+const computerScore = document.getElementsByClassName("computerScore");
+const rockBtn = document.getElementById("rock");
+const paperBtn = document.getElementById("paper");
+const scissorsBtn = document.getElementById("scissors");
+const choices = ['rock','paper','scissors']; 
 
-buttonOptions.forEach(buttonOption => {
-    buttonOption.addEventListener("click", e => {
-    const playerPick = buttonOption.dataset.selection
-    buttonPick(playerPick)
-    })
-});
-    
 
-function buttonPick(pick) {
-    alert('rererereer');
-    console.log(pick);
+function game(player) {
+    const computer = computerChoiceGen();
+    console.log(computer);
 }
-
-
 
 function computerChoiceGen(){
-    computer = Math.floor(Math.random() * choices.length)
+    const choiceNumber = Math.floor(Math.random() * choices.length)
+    return choices[choiceNumber];
 }
 
+console.log(computerChoiceGen());
 
 
-function winner(){
+function buttonPick() {
+    rockBtn.addEventListener("click", function() {
+        game("rock");
+     })
 
-    let player = buttonPick(pick);
-    let computer = computerChoiceGen();
-
-    if (player === 'rock' && computer === 'rock'){
-        playerScore++;
-        computerScore++;
-        alert('Tie!');
-    } else if(player === 'rock' && computer === 'paper') {
-        counter++;
-        computerScore++;
-        alert('Computer Wins!');
-    } else if (player === 'rock' && computer === 'scissors'){
-        playerScore++;
-        alert('Player Wins!');
-    }
+     paperBtn.addEventListener("click", function() {
+        game("paper");
+     })
     
-    if (player === 'paper' && computer === 'paper'){
-        playerScore++;
-        computerScore++;
-        alert('Tie!');
-    } else if(player === 'paper' && computer === 'scissors'){
-        computerScore++;
-        alert('Computer Wins!');
-    } else if (player === 'paper' && computer === 'rock'){
-        playerScore++;
-        alert('Player Wins!');
-    }
+    scissorsBtn.addEventListener("click", function() {
+            game("scissors");
+    })
     
-    if (player === 'scissors' && computer === 'scissors'){
-        playerScore++;
-        computerScore++;
-        alert('Tie!');
-    } else if(player === 'scissors' && computer === 'rock'){
-        computerScore++;
-        alert('Computer Wins!');
-    } else if (player === 'scissors' && computer === 'paper'){
-        playerScore++;
-        alert('Player Wins!');
-    }
-    
-
 }
+
+buttonPick();
 
