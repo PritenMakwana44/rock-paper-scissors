@@ -3,14 +3,17 @@ let playerScore = document.getElementById("playerScore");
 let computerScore = document.getElementById("computerScore");
 playerScore = 0;
 computerScore = 0;
-document.getElementById("playerScore").innerHTML=`<h3>Player:</h3>` + playerScore;
-document.getElementById("computerScore").innerHTML=`<h3>Computer:</h3>`+ computerScore;
+document.getElementById("playerScore").innerHTML=`Player: ` + playerScore;
+document.getElementById("computerScore").innerHTML=`Computer: `+ computerScore;
 
 const rockBtn = document.getElementById("rock");
 const paperBtn = document.getElementById("paper");
 const scissorsBtn = document.getElementById("scissors");
 const choices = ['rock','paper','scissors']; 
 
+let movesLeft = document.getElementsByClassName("movesLeft");
+movesLeft = 10;
+document.getElementsByClassName("movesLeft").innerHTML=`Moves Left: ` + movesLeft;
 
 function game(player) {
     const computer = computerChoiceGen();
@@ -48,9 +51,9 @@ function game(player) {
         alert('Player Wins!');
         computerScore++;
     }
-    document.getElementById("playerScore").innerHTML=`<h3>Player:</h3>` + playerScore;
-    document.getElementById("computerScore").innerHTML=`<h3>Computer:</h3>`+ computerScore;
-
+    Gameover()
+    document.getElementById("playerScore").innerHTML=`Player: ` + playerScore;
+    document.getElementById("computerScore").innerHTML=`Computer: `+ computerScore;
     console.log(computer);
     console.log(player);
     console.log(playerScore);
@@ -82,3 +85,18 @@ function buttonPick() {
 
 buttonPick();
 
+function Gameover(){
+
+if (playerScore === 10){
+    alert('Gameover - Player Wins!')
+    resetScores();
+} else if (computerScore === 10){
+    alert('Gameover - Computer Wins!')
+    resetScores();
+}
+}
+function resetScores(){
+
+    playerScore = 0;
+    computerScore = 0;
+}
