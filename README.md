@@ -129,3 +129,6 @@ https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-java
 get scoreboard working:
 
 https://stackoverflow.com/questions/20089473/how-to-output-a-javascript-variable-into-an-html-div
+
+redirect to website if condition is met:
+https://www.javascripttutorial.net/javascript-bom/javascript-redirect/

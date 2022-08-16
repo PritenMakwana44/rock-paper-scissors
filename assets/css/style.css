@@ -93,3 +93,25 @@ body {
 }
 
 
+/* Computer and player Wins webpages */
+
+
+.winHeading{
+    font-size: 100px;
+    text-align: center;
+}
+
+.winSecondHeading {
+    font-size: 80px;
+    text-align: center;
+}
+
+.winButton {
+    width: 200px;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 45%;
+    background-color: beige;
+    font-size: 100px;
+    font-family: 'Indie Flower', cursive;
+}
