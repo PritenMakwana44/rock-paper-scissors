@@ -117,3 +117,15 @@ help with player setup: https://www.youtube.com/watch?v=jaVNP3nIAv0
 help with random number generator: https://www.w3schools.com/jsref/jsref_random.asp
 
 help with template literals: https://wesbos.com/template-strings-html
+https://www.codegrepper.com/code-examples/html/how+to+display+javascript+variable+value+in+html+page
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
+event listener: https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+code ideas: https://sebhastian.com/rock-paper-scissors-javascript/
+https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/
+https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d
+
+get scoreboard working:
+
+https://stackoverflow.com/questions/20089473/how-to-output-a-javascript-variable-into-an-html-div

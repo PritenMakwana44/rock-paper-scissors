@@ -3,9 +3,8 @@ let playerScore = document.getElementById("playerScore");
 let computerScore = document.getElementById("computerScore");
 playerScore = 0;
 computerScore = 0;
-
-console.log(document.getElementById("playerScore").innerHTML)
-
+document.getElementById("playerScore").innerHTML=`<h3>Player:</h3>` + playerScore;
+document.getElementById("computerScore").innerHTML=`<h3>Computer:</h3>`+ computerScore;
 
 const rockBtn = document.getElementById("rock");
 const paperBtn = document.getElementById("paper");
@@ -49,6 +48,8 @@ function game(player) {
         alert('Player Wins!');
         computerScore++;
     }
+    document.getElementById("playerScore").innerHTML=`<h3>Player:</h3>` + playerScore;
+    document.getElementById("computerScore").innerHTML=`<h3>Computer:</h3>`+ computerScore;
 
     console.log(computer);
     console.log(player);
