@@ -6,8 +6,10 @@
     padding: 0;
     border: none;
 }
+
 /* Headings */
-h1, h2 {
+h1,
+h2 {
     font-family: 'Indie Flower', cursive;
     color: black;
 
@@ -43,10 +45,11 @@ body {
     text-align: center;
     font-size: 40px;
     border-style: solid;
-    
+
 }
 
 .rockpaperscissors {
+    padding-top: 2%;
     font-size: 50px;
     font-family: 'Indie Flower', cursive;
     width: 100%;
@@ -55,6 +58,7 @@ body {
 
 
 }
+
 .btn {
     width: 25%;
     height: 100%;
@@ -65,14 +69,14 @@ body {
 
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #967969;
 }
 
 
 .score {
     width: 20%;
-    margin: 1%;
+    margin: 3%;
     padding: 1%;
     margin-left: 40%;
     font-size: 40px;
@@ -83,30 +87,32 @@ body {
 .rulesarea {
     text-align: center;
     padding: 1%;
-    
+
 
 }
 
 .rulesarea h2 {
     font-size: 50px;
-    
+
 }
 
 .rulesarea p {
     font-size: 40px;
-    
+
 }
 
 
 /* Computer and player Wins webpages */
 
 
-.winHeading{
+.winHeading {
     font-size: 100px;
     text-align: center;
 }
 
 .winSecondHeading {
+    margin-top: 1%;
+    padding-top: 3%;
     font-size: 80px;
     text-align: center;
 }
@@ -121,6 +127,32 @@ body {
     font-family: 'Indie Flower', cursive;
 }
 
-.winButton:hover{
+.winButton:hover {
+    background-color: #967969;
+}
+
+/* 404 page */
+.errorHeading {
+    font-size: 100px;
+    text-align: center;
+}
+
+.errorSecondHeading {
+    margin-top: 10%;
+    font-size: 80px;
+    text-align: center;
+}
+
+.playButton {
+    width: 200px;
+    height: 100%;
+    margin-top: 8%;
+    margin-left: 45%;
+    background-color: beige;
+    font-size: 100px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.playButton:hover {
     background-color: #967969;
 }
