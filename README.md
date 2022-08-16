@@ -132,3 +132,7 @@ https://stackoverflow.com/questions/20089473/how-to-output-a-javascript-variable
 
 redirect to website if condition is met:
 https://www.javascripttutorial.net/javascript-bom/javascript-redirect/
+
+button help: https://www.w3schools.com/howto/howto_css_animate_buttons.asp
+
+code ideas: https://github.com/Abhi-Develops/rock-paper-scissors/blob/main/app.js
