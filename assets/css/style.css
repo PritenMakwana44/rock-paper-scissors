@@ -65,6 +65,11 @@ body {
 
 }
 
+.btn:hover{
+    background-color: #967969;
+}
+
+
 .score {
     width: 20%;
     margin: 1%;
@@ -114,4 +119,8 @@ body {
     background-color: beige;
     font-size: 100px;
     font-family: 'Indie Flower', cursive;
+}
+
+.winButton:hover{
+    background-color: #967969;
 }
