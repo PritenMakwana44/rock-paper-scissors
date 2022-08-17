@@ -123,19 +123,19 @@ body {
 /* 404 page */
 
 .errorHeading {
-    font-size: 100px;
+    font-size: 200px;
     text-align: center;
 }
 
 .errorSecondHeading {
-    margin-top: 10%;
+    margin-top: 30px;
     font-size: 80px;
     text-align: center;
 }
 
 .playButton {
     width: 200px;
-    margin-top: 8%;
+    margin-top: 70px;
     margin-left: 45%;
     background-color: beige;
     font-size: 100px;
@@ -191,14 +191,12 @@ body {
 
     .winHeading {
         font-size: 70px;
-        text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 50px;
     }
     
     .winSecondHeading {
         font-size: 40px;
-        text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
     
     .winButton {
@@ -206,6 +204,25 @@ body {
         margin: auto;
         font-size: 70px;
     }
+
+    /* 404 page */
+
+.errorHeading {
+    font-size: 70px;
+}
+
+.errorSecondHeading {
+    margin-top: 10%;
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.playButton {
+    width: 100%;
+    margin: auto;
+    font-size: 80px;
+}
 
 
 }
