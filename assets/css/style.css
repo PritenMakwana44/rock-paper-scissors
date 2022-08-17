@@ -149,7 +149,7 @@ body {
 
 /* Media queries for Mobile */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 768px) {
 
     /* Main site*/
 
@@ -171,6 +171,8 @@ body {
     
     .btn {
         font-size: 40px;
+        display: block;
+        margin: 5px auto;
         
         
     }
@@ -226,4 +228,38 @@ body {
 
 
 }
+
+/* media queries for tablet view */
+@media (min-width: 768px) and (max-width: 1081px) {
+
+    .second-heading {
+        margin-top: 1px;
+        font-size: 80px;
+        text-align: center;
+    }
+   /* Game section */
+   
+   .rockpaperscissors {
+    margin-top: 1px;
+    padding-top: 1px;
+
+}
+    
+
+.btn {
+    font-size: 50px;
+    display: block;
+    margin: 10px auto;
+    
+}
+
+ /* rules area*/
+
+
+ .rulesarea p {
+    font-size: 28px;
+
+}
+    
+  }
 
