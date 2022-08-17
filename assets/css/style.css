@@ -109,11 +109,13 @@ body {
 
 .winButton {
     width: 200px;
+    margin: 0 auto;
+    display: block;
     margin-top: 10%;
-    margin-left: 45%;
     background-color: beige;
     font-size: 100px;
     font-family: 'Indie Flower', cursive;
+
 }
 
 .winButton:hover {
@@ -135,8 +137,9 @@ body {
 
 .playButton {
     width: 200px;
-    margin-top: 70px;
-    margin-left: 45%;
+    display: block;
+    margin: 5px auto;
+    margin-top: 10%;
     background-color: beige;
     font-size: 100px;
     font-family: 'Indie Flower', cursive;
@@ -222,7 +225,6 @@ body {
 
 .playButton {
     width: 100%;
-    margin: auto;
     font-size: 80px;
 }
 
@@ -261,5 +263,23 @@ body {
 
 }
     
-  }
 
+/* Computer and player Wins webpages */
+
+
+
+.winButton {
+    width: 100%;
+
+}
+
+
+    /* 404 page */
+
+    
+    .playButton {
+        width: 100%;
+    
+    
+  }
+}
