@@ -88,11 +88,11 @@ function Gameover() {
 
     if (playerScore === 10) {
         alert('Gameover - Player Wins!')
-        location.href = "/assets/html/playerwin.html"
+        location.href = "assets/html/playerwin.html"
         resetScores();
     } else if (computerScore === 10) {
-        alert('Gameover - Computer Wins!')
-        location.href = "/assets/html/computerwin.html"
+        alert('Gameover - Computer Wins!');
+        location.href = "assets/html/computerwin.html"
         resetScores();
     }
 }
