@@ -25,7 +25,7 @@ body {
 .main-heading {
     font-size: 100px;
     text-align: center;
-    
+
 }
 
 .second-heading {
@@ -43,9 +43,6 @@ body {
     font-family: 'Indie Flower', cursive;
     width: 100%;
     text-align: center;
-    
-
-
 }
 
 .btn {
@@ -53,8 +50,6 @@ body {
     background-color: beige;
     font-size: 50px;
     font-family: 'Indie Flower', cursive;
-
-
 }
 
 .btn:hover {
@@ -68,7 +63,6 @@ body {
     font-size: 40px;
     text-align: center;
     display: block;
-  
 }
 
 
@@ -80,8 +74,6 @@ body {
     padding: 1%;
     background-color: #967969;
     margin-top: 50px;
-
-
 }
 
 .rulesarea h2 {
@@ -96,7 +88,6 @@ body {
 
 
 /* Computer and player Wins webpages */
-
 
 .winHeading {
     font-size: 180px;
@@ -161,74 +152,75 @@ body {
     .main-heading {
         font-size: 50px;
     }
-    
+
     .second-heading {
         font-size: 30px;
         margin: 0;
     }
-    
+
     /* Game section */
     .rockpaperscissors {
         margin-top: 1px;
         padding-top: 1px;
     }
-        
-    
+
+
     .btn {
         font-size: 40px;
         display: block;
         margin: 5px auto;
-        
-        
+
+
     }
+
     .score {
         font-size: 35px;
     }
 
-   
-    /* rules area*/
-    
+
+    /* rules area */
+
     .rulesarea p {
         font-size: 20px;
-    
+
     }
 
 
-/* Player and computer wins webpages for mobile */
+    /* Player and computer wins webpages for mobile */
 
     .winHeading {
         font-size: 70px;
         margin-bottom: 50px;
     }
-    
+
     .winSecondHeading {
         font-size: 40px;
         margin-bottom: 60px;
     }
-    
+
     .winButton {
         width: 100%;
         margin: auto;
         font-size: 70px;
     }
 
-    /* 404 page */
+    /* 404 page for mobile*/
 
-.errorHeading {
-    font-size: 70px;
-}
+    .errorHeading {
+        font-size: 70px;
+    }
 
-.errorSecondHeading {
-    margin-top: 10%;
-    font-size: 37px;
-    text-align: center;
-    margin-bottom: 60px;
-}
+    .errorSecondHeading {
+        margin-top: 10%;
+        font-size: 37px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
 
-.playButton {
-    width: 100%;
-    font-size: 80px;
-}
+    .playButton {
+        width: 100%;
+        font-size: 80px;
+    }
 
 
 }
@@ -241,47 +233,48 @@ body {
         font-size: 80px;
         text-align: center;
     }
-   /* Game section */
-   
-   .rockpaperscissors {
-    margin-top: 1px;
-    padding-top: 1px;
 
-}
-    
+    /* Game section */
 
-.btn {
-    font-size: 50px;
-    display: block;
-    margin: 10px auto;
-    
-}
+    .rockpaperscissors {
+        margin-top: 1px;
+        padding-top: 1px;
 
- /* rules area*/
+    }
 
 
- .rulesarea p {
-    font-size: 28px;
+    .btn {
+        font-size: 50px;
+        display: block;
+        margin: 10px auto;
 
-}
-    
+    }
 
-/* Computer and player Wins webpages */
-
-
-
-.winButton {
-    width: 100%;
-
-}
+    /* rules area*/
 
 
-    /* 404 page */
+    .rulesarea p {
+        font-size: 28px;
 
-    
+    }
+
+
+    /* Computer and player Wins webpages for tablet */
+
+
+
+    .winButton {
+        width: 100%;
+
+    }
+
+
+    /* 404 page for tablet*/
+
+
     .playButton {
         width: 100%;
-    
-    
-  }
+
+
+    }
 }
