@@ -1,3 +1,7 @@
+
+
+
+
 let playerScore = document.getElementById("playerScore");
 let computerScore = document.getElementById("computerScore");
 playerScore = 0;
@@ -64,10 +68,6 @@ function game(player) {
     Gameover()
     document.getElementById("playerScore").innerHTML = `Player: ` + playerScore;
     document.getElementById("computerScore").innerHTML = `Computer: ` + computerScore;
-    console.log(computer);
-    console.log(player);
-    console.log(playerScore);
-    console.log(computerScore);
 
 }
 
@@ -130,4 +130,10 @@ function tieColor(){
     document.getElementById("computerScore").style.color = 'blue';
     document.getElementById("playerScore").style.color = 'blue';
 }
+
+
+function rulesPopup(){
+    alert("Rules:\nRock beats Scissors, Scissors beats Paper, Paper beats Rock\nFirst to 10 wins!");
+}
+
 
