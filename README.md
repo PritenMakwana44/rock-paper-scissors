@@ -1,13 +1,9 @@
-# The Meditation Club
-## HTML/CSS Essentials Project 1
+# Rock,Paper,Scissors
+## Javascript Essentials Project 2
 
-![Responsive](/readme-resources/images/Responsive.png)
+![Responsive](/readme-resources/images/responsive.png)
 
-The meditation club is a place where anyone can become free from stress and become happier in their life. The club not only holds meditation lessons, but also holds talks every week about ancient indian wisdom. With a combination of knowledge and meditation one can become happy. 
-
-This website allows one to get a basic understanding of what the meditation club is, along with the timetable for the clubs events. The website allows one to sign up. Lastly the website shows social media links in the contact section to get in touch.
-
-The website is a concept design and is not used for a real life buisness. The aim of this project was to build a aesthetically pleasing website which is responsive on all devices.
+Rock,paper,scissors is a game which uses HTML,CSS and Javascript to work. The aim of the game is for the player to play against the computer in 10 rounds of 
 
 [Link to my Website via Github pages](https://pritenmakwana44.github.io/the-meditation-club/)
 
