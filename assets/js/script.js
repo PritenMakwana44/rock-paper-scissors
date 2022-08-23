@@ -87,7 +87,7 @@ function game(player) {
      * Then it redirects to a html winner page
      * scores reset to 0 for both computer and player.
      */
-    Gameover()
+    Gameover();
     // Keeps the player/computer score up to date as per game.
     document.getElementById("playerScore").innerHTML = `Player: ` + playerScore;
     document.getElementById("computerScore").innerHTML = `Computer: ` + computerScore;
@@ -101,7 +101,7 @@ function game(player) {
  * 
  */
 function computerChoiceGen() {
-    const choiceNumber = Math.floor(Math.random() * choices.length)
+    const choiceNumber = Math.floor(Math.random() * choices.length);
     return choices[choiceNumber];
 }
 
@@ -115,15 +115,15 @@ function computerChoiceGen() {
 function buttonPick() {
     rockBtn.addEventListener("click", function () {
         game("rock");
-    })
+    });
 
     paperBtn.addEventListener("click", function () {
         game("paper");
-    })
+    });
 
     scissorsBtn.addEventListener("click", function () {
         game("scissors");
-    })
+    });
 
 }
 
@@ -142,12 +142,12 @@ buttonPick();
 function Gameover() {
 
     if (playerScore === 10) {
-        alert('Gameover - Player Wins!')
-        location.href = "/rock-paper-scissors/playerwin.html"
+        alert('Gameover - Player Wins!');
+        location.href = "/rock-paper-scissors/playerwin.html";
         resetScores();
     } else if (computerScore === 10) {
         alert('Gameover - Computer Wins!');
-        location.href = "/rock-paper-scissors/computerwin.html"
+        location.href = "/rock-paper-scissors/computerwin.html";
         resetScores();
     }
 }
