@@ -18,45 +18,46 @@ function game(player) {
     const computer = computerChoiceGen();
 
     if (player === 'rock' && computer === 'rock') {
-        alert('Tie!');
+        document.getElementById("scoreBoard").textContent = 'Tie!';
         playerScore++;
         computerScore++;
-        tieColor()
+        tieColor();
+        
     } else if (player === 'rock' && computer === 'paper') {
-        alert('Computer Wins!');
+        document.getElementById("scoreBoard").textContent = 'Computer Wins!';
         computerScore++;
-        computerWinColor()
+        computerWinColor();
     } else if (player === 'rock' && computer === 'scissors') {
-        alert('Player Wins!');
+        document.getElementById("scoreBoard").textContent = 'Player Wins!';
         playerScore++;
         playerWinColor();
     }
     if (player === 'paper' && computer === 'paper') {
-        alert('Tie!');
+        document.getElementById("scoreBoard").textContent = 'Tie!';
         playerScore++;
         computerScore++;
-        tieColor()
+        tieColor();
     } else if (player === 'paper' && computer === 'scissors') {
-        alert('Computer Wins!');
+        document.getElementById("scoreBoard").textContent = 'Computer Wins!';
         computerScore++;
-        computerWinColor()
+        computerWinColor();
     } else if (player === 'paper' && computer === 'rock') {
-        alert('Player Wins!');
+        document.getElementById("scoreBoard").textContent = 'Player Wins!';
         playerScore++;
         playerWinColor();
 
     }
     if (player === 'scissors' && computer === 'scissors') {
-        alert('Tie!');
+        document.getElementById("scoreBoard").textContent = 'Tie!';
         playerScore++;
         computerScore++;
         tieColor();
     } else if (player === 'scissors' && computer === 'rock') {
-        alert('Computer Wins!');
+        document.getElementById("scoreBoard").textContent = 'Computer Wins!';
         computerScore++;
-        computerWinColor()
+        computerWinColor();
     } else if (player === 'scissors' && computer === 'paper') {
-        alert('Player Wins!');
+        document.getElementById("scoreBoard").textContent = 'Player Wins!';
         playerScore++;
         playerWinColor();
     }
@@ -129,3 +130,4 @@ function tieColor(){
     document.getElementById("computerScore").style.color = 'blue';
     document.getElementById("playerScore").style.color = 'blue';
 }
+
