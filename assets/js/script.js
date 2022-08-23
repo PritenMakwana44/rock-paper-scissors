@@ -21,34 +21,44 @@ function game(player) {
         alert('Tie!');
         playerScore++;
         computerScore++;
+        tieColor()
     } else if (player === 'rock' && computer === 'paper') {
         alert('Computer Wins!');
         computerScore++;
+        computerWinColor()
     } else if (player === 'rock' && computer === 'scissors') {
         alert('Player Wins!');
         playerScore++;
+        playerWinColor();
     }
     if (player === 'paper' && computer === 'paper') {
         alert('Tie!');
         playerScore++;
         computerScore++;
+        tieColor()
     } else if (player === 'paper' && computer === 'scissors') {
         alert('Computer Wins!');
         computerScore++;
+        computerWinColor()
     } else if (player === 'paper' && computer === 'rock') {
         alert('Player Wins!');
         playerScore++;
+        playerWinColor();
+
     }
     if (player === 'scissors' && computer === 'scissors') {
         alert('Tie!');
         playerScore++;
         computerScore++;
+        tieColor();
     } else if (player === 'scissors' && computer === 'rock') {
         alert('Computer Wins!');
         computerScore++;
+        computerWinColor()
     } else if (player === 'scissors' && computer === 'paper') {
         alert('Player Wins!');
-        computerScore++;
+        playerScore++;
+        playerWinColor();
     }
     Gameover()
     document.getElementById("playerScore").innerHTML = `Player: ` + playerScore;
@@ -101,4 +111,21 @@ function resetScores() {
 
     playerScore = 0;
     computerScore = 0;
+}
+
+
+function playerWinColor(){
+    document.getElementById("playerScore").style.color = 'green';
+    document.getElementById("computerScore").style.color = 'black';
+
+}
+
+function computerWinColor(){
+    document.getElementById("computerScore").style.color = 'red';
+    document.getElementById("playerScore").style.color = 'black';
+}
+
+function tieColor(){
+    document.getElementById("computerScore").style.color = 'blue';
+    document.getElementById("playerScore").style.color = 'blue';
 }
