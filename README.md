@@ -58,10 +58,10 @@ The goal of this website is to entertain the visitor of the site with a series o
 2. Returning players must be able to play the game with no issues.
 
 
-## Owner Buisness Story
+## Owner Buisness Story:
 <hr>
- The value of the buisness is simplicity and entertainment.
-
+1. The value of the buisness is simplicity and entertainment.
+<hr>
 
 ## Customer Stories
 <hr>
@@ -97,23 +97,24 @@ Colors were used in a mixture of ways. But the main colors used with in their st
 * Rules area and button hover: #967969;
 
 ## Images
-No images were used.
+No images were used favicon images are below.
 
 ## Favicon
 * Created via https://favicon.io/
+* Exact icon is https://favicon.io/emoji-favicons/victory-hand
+
 
 
 ## Features
 <hr>
 
-The website contains 3 sections within the index.html (main website). There is only 1 other html file called 404.html which is used for mistyped urls. All styling is maintained in a single CSS file. 
+The website contains 3 sections. First is the title section, second is the game section and last is the rules section. I purposely added no header or footer. But can be used in the future if needed. as it's a simple site I didn't think there was much need for either.
 
-**Header**
-- Header holds a heading for the whole page which reads 'The Meditation Club'.
-- Dark coloured and has a specific modern font to make it stand out.
-- The logo is linked to the home page which is the index.html page.
+**Headings section**
+- Main and first heading holds the title which reads 'Rock, Paper, Scissors'.
+- Next is a second heading which reads 'Can you beat me?'
 
-![Header-navbar](/readme-resources/images/Header-and-nav-bar.png)
+![Header-navbar](/readme-resources/images/headings.png)
 
 **Navigation Bar**
 - Navigation bar is in middle of page.
