@@ -3,9 +3,13 @@
 
 ![Responsive](/readme-resources/images/responsive.png)
 
-Rock,paper,scissors is a game which uses HTML,CSS and Javascript to work. The aim of the game is for the player to play against the computer in 10 rounds of 
+Rock,paper,scissors is a game which is built using HTML,CSS and Javascript. The aim of the game is for the player to play against the computer in 10 rounds of intense rock,paper,scissors. If the player reaches 10 first then a html webpage is shown which indicates the player being the winner †hen asking if you would like to play again. Similar is shown if the game is tied or the computer wins.
 
-[Link to my Website via Github pages](https://pritenmakwana44.github.io/the-meditation-club/)
+The rules are simple: Rock beats Scissors, Scissors beats Paper, Paper beats Rock. First to 10 wins as explained above.
+
+The website must be responsive, simple and easy to play.
+
+[Link to my Website via Github pages](https://pritenmakwana44.github.io/rock-paper-scissors/)
 
 # Contents
 - [UX](#ux)
@@ -38,43 +42,39 @@ Rock,paper,scissors is a game which uses HTML,CSS and Javascript to work. The ai
 <hr>
 
 ## Owner Buisness Goals
-The goal of this website is to introduce others to Meditation from all angles. This would be from physically learning diffrent styles of meditation, learning the culture behind meditation and the ancient teachings behind mediation. The website is a place where one can get a summary of what the club entails, but also allows one to check the schedule of what is on every week. If one is interested then they can sign up on the website or get in touch via the social media links. 
+The goal of this website is to entertain the visitor of the site with a series of best to 10 games of rock, paper scissors against the computer. Once they win, lose or tie they can then play again until they win!
 
-## Customer Goals
+## Player Goals
 <hr>
 
-### New Customer Goals
-1. New users should be able to get a summary of what the meditation club is about.
-2. New users should be able to easily check the timetable to see what would interest them most about the meditation club. 
-3. New users should be able to sign up with ease.
-4. New users should be able to access the clubs social media to either contact or find content for context of what the events look like. 
+### New Player Goals
+1. New players must first be able to understand the rules of the game.
+2. New players must straight away know what the game actually is. 
+3. New players must easily be able to play the game on any device.
 
 
-### Returning Customer Goals
-1. Returning users may have already gathered what the club is about, so the about section is more of way of reiterating what the club does. 
-2. The main reason most returning users would go back to the website would be for the timetable to see what is on that coming week or to access social media links.
+### Returning Player Goals
+1. Returning players should be able to have a reminder of what the rules are.
+2. Returning players must be able to play the game with no issues.
 
 
 ## Owner Buisness Story
 <hr>
+ The value of the buisness is simplicity and entertainment.
 
-1. The buisness values must be presented via the website. The real value is a modern take on ancient teachings.
-2. All customers must feel that joining the club is simple and easy. 
-3. The buisness must show that they are able to bring value to others lives in a organised manner.
 
 ## Customer Stories
 <hr>
 
-### New Customer Story:
-1. Need to know what the club is about. 
-2. What events are on. 
-3. How to sign up.
-4. How to get in touch.
+### New Player Story:
+1. Rules must be clear
+2. Must be simple to play
+3. Must look good.
 
 
-### Returning Customer Story:
-1. Need to be able to check what events are coming up. 
-2. Find social media links to reach out or view contents. Or event to share with others.
+### Returning Player Story:
+1. Must be easy to replay.
+
 
 ## Structure
 <hr>
@@ -85,21 +85,23 @@ The structure of the website was to be clear and simple while still being modern
 <hr>
 
 ## Fonts
-
-* For headings the font'Fjalla One' was used with a backup of sans-serif.
-* For anything else the font 'Roboto' was used with a back of serif.
+* For All headings and body the font 'Indie Flower' was used with a backup of cursive.
 
 ## Colors
 
 Colors were used in a mixture of ways. But the main colors used with in their structured way were:
 
-* Font color: #281b13.
-* Background color: #FAF9F6.
-* Lining and styling: #e5d9c2.
+* Font color: default black.
+* Background color: default white.
+* Button colour: beige.
+* Rules area and button hover: #967969;
 
 ## Images
+No images were used.
 
-All images were taken from [www.pexels.com](www.pexels.com)
+## Favicon
+* Created via https://favicon.io/
+
 
 ## Features
 <hr>
@@ -341,3 +343,5 @@ https://www.javascripttutorial.net/javascript-bom/javascript-redirect/
 button help: https://www.w3schools.com/howto/howto_css_animate_buttons.asp
 
 code ideas: https://github.com/Abhi-Develops/rock-paper-scissors/blob/main/app.js
+
+favicon - https://favicon.io/emoji-favicons/victory-hand
