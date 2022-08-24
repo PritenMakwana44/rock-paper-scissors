@@ -151,7 +151,7 @@ function Gameover() {
         resetScores();
     } else if (computerScore === 1 && playerScore ===1) {
         alert('Gameover - Tie Game!');
-        location.href = "/rock-paper-scissors/Tie.html";
+        location.href = "/rock-paper-scissors/tie.html";
         resetScores();
 
     }
