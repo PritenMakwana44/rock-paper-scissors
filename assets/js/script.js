@@ -143,7 +143,7 @@ function Gameover() {
 
     if (playerScore === 10) {
         alert('Gameover - Player Wins!');
-        location.href = "/rock-paper-scissors/playerwin.html";
+        location.href = "/playerwin.html";
         resetScores();
     } else if (computerScore === 10) {
         alert('Gameover - Computer Wins!');

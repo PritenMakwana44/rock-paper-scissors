@@ -235,16 +235,10 @@ SEO testing for 404 error site mobile:
 ## Bugs
 <hr>
 
-Hover bug:
-- When hovering over the submit button it is the correct colour, just the button is out of place. 
+External html on Github bug:
+- The bug was a case that the page redirects to the playerwin/computerwin/tie htmls not working on Github. These worked when tested on Gitpod via 
 
-Before hover:
 
-![signup](/readme-resources/images/signup.png)
-
-After Hover: 
-
-![submit-hover-bug](/readme-resources/images/submit-hover-bug.png)
 
 **Solved Bugs**
 
