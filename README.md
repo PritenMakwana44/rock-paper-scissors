@@ -110,29 +110,39 @@ No images were used favicon images are below.
 
 The website contains 3 sections. First is the title section, second is the game section and last is the rules section. I purposely added no header or footer. But can be used in the future if needed. as it's a simple site I didn't think there was much need for either.
 
+**Page load popup for rules**
+- When the page is loaded there is an alert which tells the player what the rules. 
+- The player then has to click okay to continue.
+
+
+![Rules-popup](/readme-resources/images/pageloadalert.png)
+
+
 **Headings section**
 - Main and first heading holds the title which reads 'Rock, Paper, Scissors'.
 - Next is a second heading which reads 'Can you beat me?'
 
-![Header-navbar](/readme-resources/images/headings.png)
+![Headings](/readme-resources/images/headings.png)
 
-**Navigation Bar**
-- Navigation bar is in middle of page.
-- When hovering over links on nav bar the specific item is underlined.
-- Links to about section, timetable section and signup section. 
-- Font contrasts with background which is off-white. It's in a simple but modern text.
-- Fully responsive with diffrent devices. Easily done as it's in the center of page.
-- The Nav bar is also on the 404 error page.
+**Games Area**
+- There are 3 buttons which indicate Rock, paper, scissors. These are used to play the game.
+- Underneath the buttons section is the player score. If the player wins the round the player score increments by 1 and turns green.
+- Below the player score is the computer score. If the computer wins the round the computer score increments by 1 and turns red.
+- If both computer and player scores are tied then both will turn blue. 
+- Underneath the scores section is the round win indicator which shows if the round winner is player, computer or if it's tied. 
+- First to win 10 rounds wins. There is a pop up on the screen and a redirection to another html page depending on win, lose or tie.
 
-![Header-navbar](/readme-resources/images/Header-and-nav-bar.png)
+![Games-Area](/readme-resources/images/gamearea.png)
 
-**Landing Page**
+**Player/Computer win or tie page**
 - Landing page shows a picture of a women meditating which covers most of the page.
 - Text is also over the image. The text is a means of claryfing what the website is about.
 - Opacity set on image to make text stand out and easier to read.
 - Text and image responsive to diffrent devices.
 
-![main-image](/readme-resources/images/main-image.png)
+![Player-win-alert](/readme-resources/images/gameoveralertplayerwins.png)
+![computer-win-alert](/readme-resources/images/gameoveralertcomputerwins.png)
+![Tie-game-alert](/readme-resources/images/main-image.png)
 
 **About Section**
 - The about section covers what the club is about and what is included.
