@@ -285,26 +285,24 @@ function Gameover() {
     }
 
 
-
-
 ## Deployment
 
 To deploy Github the steps I took are below:
 
 1. Log into your Github account.
 2. Go to your repositories
-3. Click on your project (e.g the-meditation-club)
+3. Click on your project (e.g rock-paper-scissors)
 4. Click settings which should be in the middle of the page.
 5. on the left side under 'Code and automation', you should find a tab called pages. Click this tab.
 6. Branch should say main and folder should say root. Click save. 
 7. It then should say 'Your site is being published at "Here would be your url for site"
 
-Published url: [https://pritenmakwana44.github.io/the-meditation-club/](https://pritenmakwana44.github.io/the-meditation-club/)
+Published url: [https://pritenmakwana44.github.io/rock-paper-scissors/](https://pritenmakwana44.github.io/rock-paper-scissors/)
 
 To run locally:
 1. Log into your Github account.
 2. Go to your repositories
-3. Click on your project (e.g the-meditation-club)
+3. Click on your project (e.g rock-paper-scissors)
 4. Click 'code' then 'Download ZIP' Or if you use Gitpod you should see a Gitpod button next to code to deploy.
 5. Once you download the zip you should then be able to run the project locally.
 
@@ -312,7 +310,6 @@ To run locally:
 
 ## Credit
 **Content**
-* The social media code was taken from the Code Institute Love running project, but was styled slightly diffrently.
 * Sizing inspirtation was taken from the below link
 [https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488](https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488)
 * Styling code inspirtation was taken from:
@@ -325,42 +322,42 @@ To run locally:
 [https://github.com/Code-Institute-Org/gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 * All research was done using Google. [www.google.com](www.google.com)
 
-**Media**
-* All images were taken from Pexels
+* For help with the player setup I used this youtube video.
+[https://www.youtube.com/watch?v=jaVNP3nIAv0](https://www.youtube.com/watch?v=jaVNP3nIAv0)
+
+* For help with the random number generator I used the following website.
+[https://www.w3schools.com/jsref/jsref_random.](https://www.w3schools.com/jsref/jsref_random.)
+
+* For help with template literals I used the following sites. This was to combine strings with variables.
+[https://wesbos.com/template-strings-html](https://wesbos.com/template-strings-html)
+[https://www.codegrepper.com/code-examples/html/how+to+display+javascript+variable+value+in+html+page](https://www.codegrepper.com/code-examples/html/how+to+display+javascript+variable+value+in+html+page)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+
+* For help with event listeners. 
+[https://www.w3schools.com/js/js_htmldom_eventlistener.asp](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+
+* For help to get scoreboard working.
+[https://stackoverflow.com/questions/20089473/how-to-output-a-javascript-variable-into-an-html-div](https://stackoverflow.com/questions/20089473/how-to-output-a-javascript-variable-into-an-html-div)
+
+* For help to redirect to a website within a if statement.
+[https://www.javascripttutorial.net/javascript-bom/javascript-redirect/](https://www.javascripttutorial.net/javascript-bom/javascript-redirect/)
+
+* For button ideas.
+[https://www.w3schools.com/howto/howto_css_animate_buttons.asp](https://www.w3schools.com/howto/howto_css_animate_buttons.asp)
+
+* Fav icons were taken from the following.
+[https://favicon.io/emoji-favicons/victory-hand](https://favicon.io/emoji-favicons/victory-hand).
+
+* I used the following websits to get code ideas. None were copied but to get structure ideas of code I used these for inspirtation.
+[https://sebhastian.com/rock-paper-scissors-javascript/](https://sebhastian.com/rock-paper-scissors-javascript/)
+[https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
+[https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d](https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d)
+[https://github.com/Abhi-Develops/rock-paper-scissors/blob/main/app.js](https://github.com/Abhi-Develops/rock-paper-scissors/blob/main/app.js)
 
 
 
 
-Happy coding!
 
 
 
 
-
-
-
-help with player setup: https://www.youtube.com/watch?v=jaVNP3nIAv0
-help with random number generator: https://www.w3schools.com/jsref/jsref_random.asp
-
-help with template literals: https://wesbos.com/template-strings-html
-https://www.codegrepper.com/code-examples/html/how+to+display+javascript+variable+value+in+html+page
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-
-event listener: https://www.w3schools.com/js/js_htmldom_eventlistener.asp
-code ideas: https://sebhastian.com/rock-paper-scissors-javascript/
-https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/
-https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d
-
-get scoreboard working:
-
-https://stackoverflow.com/questions/20089473/how-to-output-a-javascript-variable-into-an-html-div
-
-redirect to website if condition is met:
-https://www.javascripttutorial.net/javascript-bom/javascript-redirect/
-
-button help: https://www.w3schools.com/howto/howto_css_animate_buttons.asp
-
-code ideas: https://github.com/Abhi-Develops/rock-paper-scissors/blob/main/app.js
-
-favicon - https://favicon.io/emoji-favicons/victory-hand
