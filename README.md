@@ -229,6 +229,7 @@ SEO testing for 404 error site desktop:
 ![tiegame-desktop-seo](/readme-resources/images/404errorseo.png)
 
 SEO testing for 404 error site mobile:
+
 ![tiegame-mobile-seo](/readme-resources/images/404errorseomobile.png)
 
 
