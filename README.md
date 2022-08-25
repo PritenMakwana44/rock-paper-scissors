@@ -139,6 +139,7 @@ The website contains 3 sections. First is the title section, second is the game 
 - If it's a tie the alert also activates.
 - Once the alert comes up the player must click 'ok'.
 - The you are redirected to a html site according to win, lose or tie. These are all seperate html files.
+- Each page has a button if the player wants to play again.
 
 ![Player-win-alert](/readme-resources/images/gameoveralertplayerwins.png)
 ![Player-win-page](/readme-resources/images/playerwinhtml.png)
@@ -147,56 +148,22 @@ The website contains 3 sections. First is the title section, second is the game 
 ![Tie-game-alert](/readme-resources/images/tiegamealert.png)
 ![Tie-game-page](/readme-resources/images/tiehtml.png)
 
-**About Section**
-- The about section covers what the club is about and what is included.
-- This section breaks down the club into 4 parts. 
-- Each section of the 4 has a header which breaks down the topic then a sentance to describe and a image for aesthetic.
-- This section gives the viewer the essence of the meditation club.
-- Again this section is responsive to tablets and mobiles too.
+**Rules Section**
+- This section is a reminder of the rules at the bottom of the screen which pairs with the alert on page load.
 
-![about](/readme-resources/images/about.png)
-
-**Timetable Section**
-- The timetable section has a diffrent colour which stands out amongst the rest of the site to attract the viewers attention. 
-- The writing is dark and the table is beige with offwhite lines breaking it up. 
-- The timetable displays all days of the week with their respective events, who they are instructed by and what time. 
-- The table is responsive to all devices. 
-
-![timetable](/readme-resources/images/timetable.png)
-
-
-**Sign Up Section**
-
-- The signup section has a header with beige writing and a black background to contrast the offwhite background of the website. This makes it easy of users to identify the signup section.
-- This section has a form for visitors to sign up with a submit button. 
-- The signup form includes first name, last name, email and number. 
-- The styling of the form is to have a dark box and beige border at bottom to keep the website consistent. 
-- When the submit button is clicked or hovered over the button turns black.
-- Responsive to mobile and tablet.
-
-![signup](/readme-resources/images/signup.png)
-
-**Footer**
-- The footer has 4 social media icons. 
-- Each social media icon is clickable and should go to the respective social media site. 
-- All icons are stick with the same colour scheme of offwhite background and dark in color.
-- Responsive to mobile and tablet.
-
-![footer](/readme-resources/images/footer.png)
+![Rules](/readme-resources/images/rulesarea.png)
 
 **404 Error page**
-- The 404 error page is a single HTML file which includes the logo which is the same as the logo on the main website which links to the main site when clicked.
-- It includes a functional nav bar which goes with the theme of the site. 
-- Then an image of 4 rocks stacked ontop of eachother which is a common meditation image.
+- The 404 error page is an error page which includes a button to get to the correct page.
 
-![404](/readme-resources/images/error-page.png)
+![404](/readme-resources/images/404errorpage.png)
 
 ## Future Implementations
 <hr>
 
-- Built in class schedule system which lets customers confirm attendance.
-- Multiple pages - Go into more detail of the 4 pillars of the meditation club in a detailed about page. 
-- Pictures and videos from events.
+- Account creation with a scoreboard to keep count of the most wins players have.
+- Facebook integration for players to sign in and compete with the the computer or other players. 
+- More game modes like best to 3, 5 or 50.
 
 
 ## Technology Used
@@ -204,14 +171,11 @@ The website contains 3 sections. First is the title section, second is the game 
 
 1. HTML5 - Markup language for structure.
 2. CSS3 - Styling language.
-3. Font Awesome - Icons
-4. Google Fonts - Fonts
-5. Github - Hosted platform for website.
-6. Git - Version control system.
-7. Gitpod - IDE
-9. Google - Research platform.
-
-
+3. Google Fonts - Fonts
+4. Github - Hosted platform for website.
+5. Git - Version control system.
+6. Gitpod - IDE
+7. Google - Research platform.
 
 
 ## Testing
@@ -221,33 +185,52 @@ The website contains 3 sections. First is the title section, second is the game 
 
 For functionality testing I tested my website in all diffrent sizes in chrome, firefox and safari. 
 
-In chrome the site looked just fine on all devices.
-
-- Used dev tools to check everything works with diffrent screen sizes. all seemed to be fine. 
-- All areas have great contrast and seem to be easy to see.
-- Form works fine and submit button works. Did find a bug with the hover function of the button being out of place. Fixed below in bugs section.
-
-However in Safari and firefox all looked fine apart from the nav bar font which looked slightly thinner then usual. This was the same accross all device sizes.
-
-![safari-blurry](/readme-resources/images/safari-blurry.png)
-
-Result: After speaking with external help (tutors) We came to a conclusion as it's just the way the browsers render. Possible change of font could fix in the future. 
+My project looked great on all browsers and were  responsive on mobile, tablet and desktop.
 
 
 ### Code Validator Testing
 
  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
- [W3C HTML Validator](https://validator.w3.org/) 
+ 
+ [W3C HTML Validator](https://validator.w3.org/)
+ 
+ [Jshint Validator](https://jshint.com/)
+
 
  ### SEO Testing
 
- Below are screenshots taken from the chrome dev tools lighthouse function to evaluate SEO of the website.
+ Below are screenshots taken from the chrome dev tools lighthouse function to evaluate SEO of the website which includes all HTML sites.
 
-SEO testing desktop:
-![desktop-seo](/readme-resources/images/desktop-seo.png)
+SEO testing for main site desktop:
+![main-desktop-seo](/readme-resources/images/indexseo.png)
 
-SEO testing mobile:
-![mobile-seo](/readme-resources/images/mobile-seo.png)
+SEO testing for main site mobile:
+![main-mobile-seo](/readme-resources/images/indexseomobile.png)
+
+SEO testing for Player win site desktop:
+![playerwin-desktop-seo](/readme-resources/images/playerwinsseo.png)
+
+SEO testing for Player win site mobile:
+![playerwin-mobile-seo](/readme-resources/images/playerwinsseomobile.png)
+
+SEO testing for Computer win site desktop:
+![computerwin-desktop-seo](/readme-resources/images/computerwinsseo.png)
+
+SEO testing for Computer win site mobile:
+![computerwin-mobile-seo](/readme-resources/images/computerwinsseomobile.png)
+
+SEO testing for Tie game site desktop:
+![tiegame-desktop-seo](/readme-resources/images/tieseo.png)
+
+SEO testing for Tie game site mobile:
+![tiegame-mobile-seo](/readme-resources/images/tieseomobile.png)
+
+SEO testing for 404 error site desktop:
+![tiegame-desktop-seo](/readme-resources/images/404errorseo.png)
+
+SEO testing for 404 error site mobile:
+![tiegame-mobile-seo](/readme-resources/images/404errorseomobile.png)
+
 
 ## Bugs
 <hr>
