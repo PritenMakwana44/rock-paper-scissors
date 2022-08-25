@@ -236,26 +236,54 @@ SEO testing for 404 error site mobile:
 <hr>
 
 External html on Github bug:
-- The bug was a case that the page redirects to the playerwin/computerwin/tie htmls not working on Github. These worked when tested on Gitpod via 
+- The bug was a case that the page redirects to the playerwin/computerwin/tie htmls not working on Github. These worked when tested on Gitpod via locations with root access e.g "location.href = "/playerwin.html";"
 
+Here is the code in Javascript for function Gameover() before change:
 
+function Gameover() {
+
+    if (playerScore === 10) {
+        alert('Gameover - Player Wins!');
+        location.href = "/playerwin.html";
+        resetScores();
+    } else if (computerScore === 10) {
+        alert('Gameover - Computer Wins!');
+        location.href = "/computerwin.html";
+        resetScores();
+    } else if (computerScore === 10 && playerScore === 10) {
+        alert('Gameover - Tie Game!');
+        location.href = "/tie.html";
+        resetScores();
+
+    }
+
+The error page looked like this:
+![bug-error-redirect](/readme-resources/images/websiteredirectbug.png)
 
 **Solved Bugs**
 
-Hover Bug:
+External html on Github bug:
+- Fix was to specify root with with "rock-paper-scissors".
 
-Removed from #submit-button:hover:
-margin-top: 5%;
-padding: 1% 1%;
+See below for code to fix.
 
+function Gameover() {
 
-added to #submit-button:hover:
-display: block;
-margin: 1% auto;
+    if (playerScore === 10) {
+        alert('Gameover - Player Wins!');
+        location.href = "/rock-paper-scissors/playerwin.html";
+        resetScores();
+    } else if (computerScore === 10) {
+        alert('Gameover - Computer Wins!');
+        location.href = "/rock-paper-scissors/computerwin.html";
+        resetScores();
+    } else if (computerScore === 10 && playerScore === 10) {
+        alert('Gameover - Tie Game!');
+        location.href = "/rock-paper-scissors/tie.html";
+        resetScores();
 
-- I must have missed this when adjusting the submit button code in css. 
+    }
 
-![hover-bug-fix](/readme-resources/images/hover-bug-fix.png)
 
 
 
