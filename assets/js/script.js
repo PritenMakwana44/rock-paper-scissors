@@ -149,7 +149,7 @@ function Gameover() {
         alert('Gameover - Computer Wins!');
         location.href = "/rock-paper-scissors/computerwin.html";
         resetScores();
-    } else if (computerScore === 1 && playerScore === 1) {
+    } else if (computerScore === 10 && playerScore === 10) {
         alert('Gameover - Tie Game!');
         location.href = "/rock-paper-scissors/tie.html";
         resetScores();
