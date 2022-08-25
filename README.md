@@ -135,14 +135,17 @@ The website contains 3 sections. First is the title section, second is the game 
 ![Games-Area](/readme-resources/images/gamearea.png)
 
 **Player/Computer win or tie page**
-- Landing page shows a picture of a women meditating which covers most of the page.
-- Text is also over the image. The text is a means of claryfing what the website is about.
-- Opacity set on image to make text stand out and easier to read.
-- Text and image responsive to diffrent devices.
+- When the player or computer reaches 10 wins then first an alert which says 'gameover - player/computer wins!'.
+- If it's a tie the alert also activates.
+- Once the alert comes up the player must click 'ok'.
+- The you are redirected to a html site according to win, lose or tie. These are all seperate html files.
 
 ![Player-win-alert](/readme-resources/images/gameoveralertplayerwins.png)
+![Player-win-page](/readme-resources/images/playerwinhtml.png)
 ![computer-win-alert](/readme-resources/images/gameoveralertcomputerwins.png)
-![Tie-game-alert](/readme-resources/images/main-image.png)
+![computer-win-page](/readme-resources/images/computerwinshtml.png)
+![Tie-game-alert](/readme-resources/images/tiegamealert.png)
+![Tie-game-page](/readme-resources/images/tiehtml.png)
 
 **About Section**
 - The about section covers what the club is about and what is included.
