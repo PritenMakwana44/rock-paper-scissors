@@ -264,7 +264,7 @@ The error page looked like this:
 **Solved Bugs**
 
 External html on Github bug:
-- Fix was to specify root with with "rock-paper-scissors".
+- Fix was to specify root with "rock-paper-scissors".
 
 See below for code to fix.
 
