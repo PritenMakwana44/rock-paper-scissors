@@ -67,8 +67,8 @@ The goal of this website is to entertain the visitor of the site with a series o
 <hr>
 
 ### New Player Story:
-1. Rules must be clear
-2. Must be simple to play
+1. Rules must be clear.
+2. Must be simple to play.
 3. Must look good.
 
 
